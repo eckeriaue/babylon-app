@@ -1,6 +1,6 @@
-// import "@babylonjs/core/Debug/debugLayer"
-// import "@babylonjs/inspector"
-// import "@babylonjs/loaders/glTF"
+import "@babylonjs/core/Debug/debugLayer"
+import "@babylonjs/inspector"
+import "@babylonjs/loaders/glTF"
 import * as BABYLON from '@babylonjs/core'
 import Box from './Box'
 import Ground from './Ground'
