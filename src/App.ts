@@ -12,6 +12,7 @@ export default class App {
   private camera: BABYLON.ArcRotateCamera
   private light: BABYLON.HemisphericLight
   private ground: Ground
+
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas
     this.canvas.width = window.innerWidth
