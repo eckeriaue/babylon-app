@@ -4,6 +4,7 @@
 import * as BABYLON from '@babylonjs/core'
 import Box from './Box'
 import Ground from './Ground'
+
 export default class App {
   private canvas: HTMLCanvasElement
   private engine: BABYLON.Engine
