@@ -22,7 +22,7 @@ export default class App {
     this.box()
     this.createAamera()
     this.createLight()
-    // this.ground = new Ground()
+    this.ground = new Ground()
     this.engine.runRenderLoop(() => {
       this.sceneToRender.render()
     })
