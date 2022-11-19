@@ -11,7 +11,7 @@ export default class App {
   private scene: BABYLON.Scene & any
   private camera: BABYLON.ArcRotateCamera
   private light: BABYLON.HemisphericLight
-  ground: Ground
+  private ground: Ground
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas
     this.canvas.width = window.innerWidth
@@ -32,9 +32,6 @@ export default class App {
   private create() {
     this.scene = new BABYLON.Scene(this.engine)
     this.scene.clearColor = BABYLON.Color3.Black as () => BABYLON.Color3
-    // const xPromise = this.scene.createDefaultXRExperienceAsync({
-    //   floorMeshes: [this.ground]
-    // })
     return this.scene
   }
 
